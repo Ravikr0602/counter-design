@@ -1,0 +1,96 @@
+  
+/***********************************************************************************************************
+Number of counter
+***********************************************************************************************************/
+
+.counter_box
+  {
+    height: auto;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .count-box
+  {
+    border: 1px dashed white;
+    border-radius: 8px;
+    width: 300px;
+    height: auto; 
+    text-align: center;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .count-box .logos
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .count-box .logos #clogo
+  {
+      margin-top: 5%;
+      color: white;
+  }
+  .count_title
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;  
+
+  }
+  .count-box .count_title #c_title
+  {
+      margin-top: 5%;
+      
+  }
+  .count-box .num
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 2.9rem;
+    font-weight: 900;
+    margin-bottom: 3%;
+    color: red;  
+  }
+  
+   
+  @media screen and (max-width: 600px)
+  {
+    .counter_box
+    {
+      height: auto;
+      padding-top: 25px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+    .count-box
+    {
+      border: 1px dashed white;
+      width: 300px;
+      height: auto; 
+      text-align: center;
+      position: relative;
+      margin-left: 2%;
+      margin-right: 2%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 4%;
+    }
+  }
